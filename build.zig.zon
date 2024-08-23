@@ -1,0 +1,17 @@
+.{
+    .name = "haystack-cli",
+    .version = "0.0.0",
+
+    .dependencies = .{ .haystack = .{
+        .path = "haystack",
+    } },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        // For example...
+        //"LICENSE",
+        //"README.md",
+    },
+}
